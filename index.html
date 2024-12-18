@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VA2.4_HW1</title>
+  </head>
+  <body>
+    <h1>Event Regestraion Form</h1>
+    <label for="username">Name:</label>
+    <input type="text" id="username" />
+    <br /><br />
+    <label for="useremail">Email:</label>
+    <input type="email" id="useremail" />
+    <br /><br />
+    <label for="event"> Event Type:</label><br />
+    <label
+      ><input type="radio" name="uevent" value="Confernece" />Confernece
+    </label>
+    <br />
+    <label><input type="radio" name="uevent" value="Workshop" />Workshop</label>
+    <br />
+    <label
+      ><input type="radio" name="uevent" value="Networking" />Networking</label
+    >
+    <br /><br />
+    <label for="">Dietary Restrictions:</label><br />
+    <input type="checkbox" name="diet" value="Vegetarian" />Vegetarian <br />
+    <input type="checkbox" name="diet" value="Vegan" />Vegan <br />
+    <input type="checkbox" name="diet" value="Gluten Free" />Gluten Free <br />
+    <br /><br />
+    <label for="tsize">Tshirt size:</label>
+    <select id="tsize">
+      <option value="Medium" name="tsize">Medium</option>
+      <option value="Large" name="tsize">Large</option>
+      <option value="Small" name="tsize">Small</option>
+    </select>
+    <br /><br />
+    <button id="registerBtn">Register</button>
+    <div id="output"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
